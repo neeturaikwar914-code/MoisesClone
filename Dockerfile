@@ -11,3 +11,4 @@ EXPOSE 10000
 
 # Using gevent to stop the 'Bad file descriptor' and restart errors
 CMD ["gunicorn", "--worker-class", "gevent", "--bind", "0.0.0.0:10000", "app:app"]
+# Force Update
