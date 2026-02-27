@@ -4,4 +4,4 @@ eventlet
 gunicorn
 torch --index-url https://download.pytorch.org/whl/cpu
 torchaudio --index-url https://download.pytorch.org/whl/cpu
-demucs
+demucsflask-cors
